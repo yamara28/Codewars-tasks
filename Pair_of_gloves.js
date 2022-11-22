@@ -4,7 +4,7 @@
 function numberOfPairs(gloves) {
     const coutingGloves = {};
 
-    gloves.forEach(element => { coutingGloves[element] = (coutingGloves[element] || 0) + 1; })
+     gloves.forEach(element => { coutingGloves[element] = (coutingGloves[element] || 0) + 1; })
 
     const convertingToPairs = Object.entries(coutingGloves).filter((coutedGlove) =>
         coutedGlove[1] > 1).map((pairs) =>
