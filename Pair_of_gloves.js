@@ -24,4 +24,3 @@ function numberOfPairs(gloves) {
 }
 
 
-console.log(numberOfPairs(["red", "red"]))

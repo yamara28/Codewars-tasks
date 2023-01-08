@@ -38,4 +38,3 @@ function sortByBit(arr) {
 
 }
 
-console.log(sortByBit([1, 3, 9, 4, 6, 3, 10]))
